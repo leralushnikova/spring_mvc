@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CustomController {
 
-    @RequestMapping(value = "/custom", method = RequestMethod.POST)
+    @RequestMapping(value = "/custom", method = RequestMethod.GET)
     public String custom() {
         return "custom";
     }
